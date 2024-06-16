@@ -55,15 +55,22 @@ plt.show()
 
 # What is your uva net id? (e.g. mst3k)
 # A variable that records students' unique UVA student ideas. Type: object
+# Analysis: These data are unique
 
 # What is your github user name?
 # A variable that records students' usernames on the website "Github". Type: object
+# Analysis: These data are unique
 
 # Operating System
 # A variable that records the the operating systems of students' computers. Type: object
+# Analysis
+data_cl['Operating System'].value_counts()
+
 
 # GPU (short description as a string)
 # A variable the records the name(s) of GPU units found inside students' computers. Type: object
+# Analysis:
+data_cl['GPU (short description as a string)'].value_counts()
 
 
 
