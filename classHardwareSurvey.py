@@ -49,3 +49,21 @@ plt.xlabel('GPU CUDA Number of Cores (int)')
 plt.ylabel('Frequency')
 plt.grid(True)
 plt.show()
+
+
+##### Qualitative Desriptions of Non-Numeric Variables #####
+
+# What is your uva net id? (e.g. mst3k)
+# A variable that records students' unique UVA student ideas. Type: object
+
+# What is your github user name?
+# A variable that records students' usernames on the website "Github". Type: object
+
+# Operating System
+# A variable that records the the operating systems of students' computers. Type: object
+
+# GPU (short description as a string)
+# A variable the records the name(s) of GPU units found inside students' computers. Type: object
+
+
+
