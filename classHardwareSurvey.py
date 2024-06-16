@@ -7,6 +7,8 @@ data = pd.read_csv('MSDS-Orientation-Computer-Survey.csv')
 
 ##### Cleaning #####
 data_cl = data.dropna()
+data_cl = data_cl[data_cl['CPU Cycle Rate (in GHz)'] <= 20]
+
 
 ##### Histograms #####
 # 'CPU Cycle Rate (in GHz)'
