@@ -1,4 +1,4 @@
 # python-practice
 
-#test
+Python badge for UVA MSDS technical orientation
 
