@@ -1,6 +1,7 @@
 import numpy
 import pandas
 import matplotlib
+import sympy
 
 ################################################
 # Problem 1
@@ -33,5 +34,19 @@ print(sum2)
 
 ################################################
 # Problem 3
+
+number = 600851475143
+prime = 2
+
+while number > 1:
+    if number % prime == 0:
+        number //= prime
+    else:
+        prime = sympy.nextprime(prime)
+
+print(prime)
+
+
+
 
 
